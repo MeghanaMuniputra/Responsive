@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            margin:10px;
+        }
+        *{
+            box-sizing: border-box;
+            width:100%;
+        }
+        img{
+            width:100%;
+        }
+        .text{
+            text-align: center;
+        }
+        
+        @media screen and (min-width:400px){
+            .container{
+                display:grid;
+                grid-template-columns:repeat(4,1fr);
+                gap:10px;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+        <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="pic1">
+        <h1>The Perfect Sandwich, A Real NYC Classic</h1>
+        <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="text">
+        <img src="https://www.w3schools.com/w3images/steak.jpg" alt="pic2">
+        <h1>The Perfect Sandwich, A Real NYC Classic</h1>
+        <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="text">
+        <img src="https://www.w3schools.com/w3images/cherries.jpg" alt="pic3">
+        <h1>The Perfect Sandwich, A Real NYC Classic</h1>
+        <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="text">
+        <img src="https://www.w3schools.com/w3images/wine.jpg" alt="pic4">
+        <h1>The Perfect Sandwich, A Real NYC Classic</h1>
+        <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+    </div>
+  
+    
+</body>
+</html>
